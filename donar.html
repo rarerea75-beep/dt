@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donar - Academy Oruro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="donar-styles.css">
+    <link rel="icon" href="logo.png" type="image.png">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Academy Logo">
+                <span>Academy Oruro</span>
+            </div>
+            <div class="menu-item explore">
+                <a href="#" id="explore-btn">Explorar <span class="arrow-down">▼</span></a>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Buscar">
+                <button class="search-btn">🔍</button>
+            </div>
+            <div class="actions">
+                <a href="inscribirse.html">
+                    <button class="button1">Inscribirse</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero estudiantes">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle">DONAR</p>
+                <h1>Ayúdanos a educar al mundo</h1>
+                <p>Tu donación hace posible que millones de estudiantes tengan acceso a educación gratuita de calidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="donation-container">
+        <div class="monthly-toggle">
+            <span>Donación única</span>
+            <label class="toggle-switch">
+                <input type="checkbox" checked>
+                <span class="slider"></span>
+            </label>
+            <span>Donación mensual</span>
+        </div>
+
+        <div class="donation-options">
+            <div class="donation-card">
+                <h3>Contribuyente</h3>
+                <div class="amount">$10</div>
+                <div class="impact">Ayuda a 2 estudiantes durante un mes</div>
+            </div>
+            <div class="donation-card selected">
+                <h3>Partidario</h3>
+                <div class="amount">$25</div>
+                <div class="impact">Apoya a 5 estudiantes durante un mes</div>
+            </div>
+            <div class="donation-card">
+                <h3>Benefactor</h3>
+                <div class="amount">$50</div>
+                <div class="impact">Impulsa a 10 estudiantes durante un mes</div>
+            </div>
+        </div>
+
+        <div class="custom-amount">
+            <h3>O ingresa una cantidad personalizada</h3>
+            <input type="number" placeholder="Otra cantidad" min="1">
+        </div>
+
+        <button class="donate-btn">Donar ahora</button>
+
+        <p class="tax-info">Academy Oruro es una organización sin fines de lucro 501(c)(3). Tu donación es deducible de impuestos.</p>
+    </div>
+
+    <section class="impact-section">
+        <h2 style="text-align: center; margin-bottom: 30px;">Tu donación hace la diferencia</h2>
+        <div class="impact-grid">
+            <div class="impact-item">
+                <img src="donar-estudiante.jpg" alt="Estudiantes">
+                <h3>140 millones</h3>
+                <p>de estudiantes registrados</p>
+            </div>
+            <div class="impact-item">
+                <img src="donar-paises.webp" alt="Países">
+                <h3>190 países</h3>
+                <p>alcanzados globalmente</p>
+            </div>
+            <div class="impact-item">
+                <img src="donar-contenido.jpg" alt="Contenido">
+                <h3>70,000+</h3>
+                <p>ejercicios de práctica</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section mission">
+                <p>Nuestra misión es brindar una educación gratuita y de primer nivel a cualquier persona, en cualquier lugar.</p>
+                <p>Academy Oruro es una organización sin fines de lucro 501(c)(3).</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="language-country">
+                <p>Idioma <a href="#">Inglés, Español</a></p>
+                <p>País <a href="#">NOSOTROS</a></p>
+            </div>
+            <div class="legal">
+                <p>© 2024 Academia Oruro</p>
+                <p><a href="#">Condiciones de uso</a> | <a href="#">Política de privacidad</a> | <a href="#">Aviso de cookies</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

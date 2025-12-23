@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscríbete - Academy Oruro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="inscribirse-styles.css">
+    <link rel="icon" href="logo.png" type="image.png">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Academy Logo">
+                <span>Academy Oruro</span>
+            </div>
+            <div class="menu-item explore">
+                <a href="#" id="explore-btn">Explorar <span class="arrow-down">▼</span></a>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Buscar">
+                <button class="search-btn">🔍</button>
+            </div>
+            <div class="actions">
+                <a href="donar.html" class="link donate">Donar</a>
+                <a href="#" class="link login">Acceso</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero estudiantes">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle">ÚNETE A ACADEMY ORURO</p>
+                <h1>Comienza tu viaje de aprendizaje</h1>
+                <p>Únete a millones de estudiantes que ya están aprendiendo con Academy Oruro.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="form-container">
+        <form id="signup-form">
+            <div class="role-selection">
+                <div class="role-card">
+                    <img src="estudiantes-ins.webp" alt="Estudiante">
+                    <h3>Estudiante</h3>
+                    <p>Aprende a tu ritmo</p>
+                </div>
+                <div class="role-card">
+                    <img src="padres-ins.jpg" alt="Padre">
+                    <h3>Padres</h3>
+                    <p>Apoya el aprendizaje</p>
+                </div>
+                <div class="role-card">
+                    <img src="profesor-ins.jpg" alt="Profesor">
+                    <h3>Profesor</h3>
+                    <p>Enseña con nosotros</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="birthdate">Fecha de nacimiento</label>
+                <input type="date" id="birthdate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="country">País</label>
+                <select id="country" required>
+                    <option value="">Selecciona un país</option>
+                    <option value="BO">Bolivia</option>
+                    <option value="MX">México</option>
+                    <option value="ES">España</option>
+                    <option value="AR">Argentina</option>
+                    <option value="CO">Colombia</option>
+                    <option value="PE">Perú</option>
+                    <option value="CL">Chile</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">Crear cuenta gratis</button>
+
+            <p class="terms">
+                Al crear una cuenta, aceptas nuestros 
+                <a href="#">Términos de servicio</a> y 
+                <a href="#">Política de privacidad</a>
+            </p>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section mission">
+                <p>Nuestra misión es brindar una educación gratuita y de primer nivel a cualquier persona, en cualquier lugar.</p>
+                <p>Academy Oruro es una organización sin fines de lucro 501(c)(3). <a href="#">Donar</a> ¡O <a href="#">sea voluntario</a> hoy!</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="language-country">
+                <p>Idioma <a href="#">Inglés, Español</a></p>
+                <p>País <a href="#">NOSOTROS</a></p>
+            </div>
+            <div class="legal">
+                <p>© 2024 Academia Oruro</p>
+                <p><a href="#">Condiciones de uso</a> | <a href="#">Política de privacidad</a> | <a href="#">Aviso de cookies</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

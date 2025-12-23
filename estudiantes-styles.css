@@ -1,0 +1,210 @@
+body, h1, p, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Estilos específicos para la página de estudiantes */
+.hero.estudiantes {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+}
+
+.hero.estudiantes .hero-text {
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.hero.estudiantes .hero-text h1 {
+    font-size: 2.8em;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.hero.estudiantes .hero-text p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.hero.estudiantes .hero-text ul {
+    margin-bottom: 30px;
+}
+
+.hero.estudiantes .hero-text ul li {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.hero.estudiantes .buttons button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero.estudiantes .buttons button:hover {
+    background-color: #005bb5;
+    box-shadow: 0 0 7px 5px rgba(0, 119, 204, 0.5);
+}
+
+/* Estilos para la sección de categorías */
+.categories {
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.categories h2 {
+    color: #333;
+    font-size: 2.2em;
+    margin-bottom: 40px;
+}
+
+.category-block {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.category-column {
+    width: 100%;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category-header {
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+.category-content {
+    padding: 20px;
+}
+
+.category-content .link {
+    display: block;
+    padding: 10px 0;
+    font-size: 1.1em;
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.category-content .link:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
+
+/* Mantener los estilos del footer existentes */
+.footer {
+    background-color: #00274d;
+    color: white;
+    padding: 20px 40px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .hero.estudiantes .hero-content {
+        flex-direction: column;
+    }
+
+    .hero.estudiantes .hero-text {
+        max-width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .hero.estudiantes .hero-text h1 {
+        font-size: 2.2em;
+    }
+
+    .hero.estudiantes .hero-text ul li {
+        text-align: left;
+    }
+
+    .hero.estudiantes .hero-image {
+        margin-top: 40px;
+    }
+
+    .hero.estudiantes .hero-image img {
+        max-width: 100%;
+    }
+}
+
+.menu-item {
+    position: relative;
+}
+
+.explore a {
+    text-decoration: none;
+    color: #3d8af7;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.actions a {
+    margin-right: 15px;
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

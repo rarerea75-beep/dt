@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Academy Oruro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contacto-styles.css">
+    <link rel="icon" href="logo.png" type="image.png">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Academy Logo">
+                <span>Academy Oruro</span>
+            </div>
+            <div class="menu-item explore">
+                <a href="#" id="explore-btn">Explorar <span class="arrow-down">▼</span></a>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Buscar">
+                <button class="search-btn">🔍</button>
+            </div>
+            <div class="actions">
+                <a href="donar.html" class="link donate">Donar</a>
+                <a href="#" class="link login">Acceso</a>
+                <a href="inscribirse.html">
+                    <button class="button1">Inscribirse</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero estudiantes">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle">CONTACTO</p>
+                <h1>¿Cómo podemos ayudarte?</h1>
+                <p>Estamos aquí para responder tus preguntas y escuchar tus comentarios.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Información de Contacto</h2>
+            <div class="contact-method">
+                <div class="contact-icon">📧</div>
+                <div class="contact-details">
+                    <h3>Email</h3>
+                    <p>soporte@academyoruro.org</p>
+                    <p>Tiempo de respuesta: 24-48 horas</p>
+                </div>
+            </div>
+            <div class="contact-method">
+                <div class="contact-icon">💬</div>
+                <div class="contact-details">
+                    <h3>Chat en Vivo</h3>
+                    <p>Disponible de Lunes a Viernes</p>
+                    <p>9:00 AM - 6:00 PM (UTC-5)</p>
+                </div>
+            </div>
+            <div class="contact-method">
+                <div class="contact-icon">📍</div>
+                <div class="contact-details">
+                    <h3>Ubicación</h3>
+                    <p>Presidente Montes, Villazon</p>
+                    <p>Oruro-Bolivia</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/UPDSOruro?locale=es_LA" class="social-icon">FB</a>
+                <a href="https://x.com" class="social-icon">TW</a>
+                <a href="https://instagram.com" class="social-icon">IG</a>
+                <a href="https://youtube.com" class="social-icon">YT</a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Envíanos un Mensaje</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre completo</label>
+                    <input type="text" id="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <select id="subject" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="support">Soporte técnico</option>
+                        <option value="feedback">Comentarios</option>
+                        <option value="partnership">Colaboraciones</option>
+                        <option value="other">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar mensaje</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2 style="text-align: center; margin-bottom: 30px;">Preguntas Frecuentes</h2>
+            <div class="faq-item">
+                <h3>¿Cómo puedo recuperar mi contraseña?</h3>
+                <p>Puedes restablecer tu contraseña haciendo clic en "¿Olvidaste tu contraseña?" en la página de inicio de sesión.</p>
+            </div>
+            <div class="faq-item">
+                <h3>¿Los cursos son realmente gratuitos?</h3>
+                <p>Sí, todo el contenido de Academy Oruro es completamente gratuito y siempre lo será.</p>
+            </div>
+            <div class="faq-item">
+                <h3>¿Cómo puedo obtener un certificado?</h3>
+                <p>Actualmente no emitimos certificados oficiales, pero puedes ver tu progreso en tu perfil.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section mission">
+                <p>Nuestra misión es brindar una educación gratuita y de primer nivel a cualquier persona, en cualquier lugar.</p>
+                <p>Academy Oruro es una organización sin fines de lucro 501(c)(3). <a href="donar.html">Donar</a> ¡O <a href="#">sea voluntario</a> hoy!</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="language-country">
+                <p>Idioma <a href="#">Español, Ingles</a></p>
+                <p>País <a href="#">NOSOTROS</a></p>
+            </div>
+            <div class="legal">
+                <p>© 2024 Academia Oruro</p>
+                <p><a href="#">Condiciones de uso</a> | <a href="#">Política de privacidad</a> | <a href="#">Aviso de cookies</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
